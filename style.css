@@ -1,0 +1,49 @@
+:root {
+  --text: #50514f;
+  --color1: #fdfff7;
+  --color2: #59ffa0;
+  --color3: #b4adea;
+  --color4: #ffed65;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 5px;
+  color: var(--text);
+  font-size: medium;
+}
+
+a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  background-color: blue;
+  color: white;
+}
+
+a:hover {
+  background-color: red;
+  color: white;
+  transition: background-color 1s;
+}
+
+a:visited {
+  background-color: purple;
+  color: white;
+}
+
+blockquote {
+  width: 50%;
+  margin: auto;
+  font-size: 160%;
+  text-align: center;
+}
+
+blockquote p {
+  background-color: #e2e2e2;
+  padding: 5px;
+}
