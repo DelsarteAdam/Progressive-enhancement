@@ -9,6 +9,8 @@
 body {
   width: 90%;
   margin: auto;
+  background-color: var(--color3);
+  background: linear-gradient(90deg, #edd9d9, #7070db);
 }
 
 p {
@@ -45,5 +47,60 @@ blockquote {
 
 blockquote p {
   background-color: #e2e2e2;
-  padding: 5px;
+  padding-left: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-left: 3px solid firebrick;
+  font-style: italic;
+}
+
+.farmer {
+  background-color: transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 5px;
+  font-size: medium;
+  border-left: 3px solid orange;
+  color: var(--text);
+  padding-left: 5px;
+}
+
+.villager {
+  background-color: transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 5px;
+  font-size: medium;
+  border-left: 3px solid blue;
+  color: var(--text);
+  padding-left: 5px;
+}
+
+header figure {
+  background-color: var(--color4);
+}
+
+.good {
+  text-transform: capitalize;
+  color: green;
+  background-color: transparent;
+}
+
+.bad {
+  text-transform: capitalize;
+  color: red;
+  background-color: transparent;
+}
+
+table {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 5px;
+  font-size: medium;
+  color: var(--text);
+}
+
+tbody > tr > :nth-child(2) {
+  background-color: var(--color2);
+}
+
+tbody > tr > :nth-child(1) {
+  background-color: var(--color4);
 }
